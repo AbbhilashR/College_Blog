@@ -28,18 +28,37 @@ import
   margin: 4px 2px;
 }
 input[type="text"]{
-  font-size: large;
-  border-radius:100px ;
+  font-size: small;
   color:black;
+  border-width: 2px;
+  width: 200px;
 }
 input[type="password"]{
-  font-size: large;
-  border-radius: 100px;
+  font-size: small;
+  border-width: 2px;
   color:black;
+  width: 200px;
 }
 input[type="submit"]{
-  font-size: large;     
+  font-size: 200px;   
+
+}
+button{
+  font-size: larger ;
 }
 *{
   font-family: monospace;
 }
+form{
+  margin-top: 20px;
+  padding: 100px;
+  border-style:solid;  
+  margin: 0;
+  text-align: center;
+  margin: auto;
+  margin-top:100px;
+  width: 300px;
+  height: 170px;
+
+}
+
