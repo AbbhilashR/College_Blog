@@ -1,4 +1,4 @@
-
+import 
 .Bar{
   color:rgb(0, 0, 0);
   font-family: 'Trebuchet MS';
@@ -12,8 +12,8 @@
   background-color: black;
   color:white;
   border-radius: 12px;
+  letter-spacing: 3px;
   font-size: large;
-
 }
 .button {
   background-color: #04AA6D;
@@ -26,5 +26,20 @@
   display: inline-block;
   font-size: 24px;
   margin: 4px 2px;
-  font-family:monospace;
+}
+input[type="text"]{
+  font-size: large;
+  border-radius:100px ;
+  color:black;
+}
+input[type="password"]{
+  font-size: large;
+  border-radius: 100px;
+  color:black;
+}
+input[type="submit"]{
+  font-size: large;     
+}
+*{
+  font-family: monospace;
 }
